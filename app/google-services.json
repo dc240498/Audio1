@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "182259282036",
+    "firebase_url": "https://amit-c3a84.firebaseio.com",
+    "project_id": "amit-c3a84",
+    "storage_bucket": "amit-c3a84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182259282036:android:6fa9ecd95695eb2aad6121",
+        "android_client_info": {
+          "package_name": "com.example.audio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182259282036-7gej5julkeqrbfib5gr8d28gboqekful.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu0AwOgaprgdMAGGlwDsP-bqCOm7MW-4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182259282036-7gej5julkeqrbfib5gr8d28gboqekful.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
