@@ -13,7 +13,7 @@ public class FeePojo {
 
     public FeePojo(String fee,String remark,String time){
 
-        this.fee = fee;
+        this.fee =fee;
         this.time=time;
         this.remark = remark;
 
@@ -21,7 +21,7 @@ public class FeePojo {
 
     public String getFee(){return fee; }
 
-    public  void setFee(String mobile){this.fee=fee;}
+    public  void setFee(String fee){this.fee=fee;}
 
     public String getTime() {
         return time;

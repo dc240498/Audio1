@@ -1,6 +1,7 @@
 package com.example.audio;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,7 +10,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView add,existing;
+    CardView add,existing,sms;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         add=findViewById(R.id.add);
         existing=findViewById(R.id.existing);
+        sms=findViewById(R.id.sendSmsActivity);
 
 
         add.setOnClickListener(new View.OnClickListener() {
@@ -38,6 +40,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        sms.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this, SendSmsActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }

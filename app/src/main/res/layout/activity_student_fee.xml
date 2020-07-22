@@ -5,15 +5,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/gamma2"
     tools:context=".StudentFeeActivity">
 
+    <TextView
+        android:id="@+id/fee_details_list"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:text="Fee Details"/>
+
+
     <EditText
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
         android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"/>
 
     <ListView
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
         android:id="@+id/feeList"
         android:layout_alignBaseline="@id/text"
         android:layout_width="match_parent"

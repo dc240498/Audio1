@@ -59,7 +59,7 @@ public class ExistingUserActivity extends AppCompatActivity {
                         int totalMessage = queryDocumentSnapshots.size();
 
                         listView.smoothScrollToPosition(totalMessage-1);
-                        listView.setSelection(chatAdapter.getCount()-1);
+                        //listView.setSelection(chatAdapter.getCount()-1);
 
                         Toast.makeText(ExistingUserActivity.this, "Data Fetched", Toast.LENGTH_SHORT).show();
                     }
